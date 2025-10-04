@@ -1,0 +1,118 @@
+2025-10-03T10:58:10.032+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] c.m.OrderManagementProjectApplication    : Starting OrderManagementProjectApplication using Java 17.0.13 with PID 82841 (/Users/bhavishya.p/Documents/workspace-spring-tools-for-eclipse-4.31.0.RELEASE/OrderManagementProject/target/classes started by bhavishya.p in /Users/bhavishya.p/Documents/workspace-spring-tools-for-eclipse-4.31.0.RELEASE/OrderManagementProject)
+2025-10-03T10:58:10.033+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] c.m.OrderManagementProjectApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-10-03T10:58:10.063+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-03T10:58:10.063+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-03T10:58:10.623+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-03T10:58:10.661+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 3 JPA repository interfaces.
+2025-10-03T10:58:11.146+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-03T10:58:11.154+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-03T10:58:11.155+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-10-03T10:58:11.182+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-03T10:58:11.182+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1119 ms
+2025-10-03T10:58:11.392+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-03T10:58:11.420+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-10-03T10:58:11.436+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-03T10:58:11.554+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-03T10:58:11.568+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-03T10:58:11.774+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a946a4
+2025-10-03T10:58:11.775+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-03T10:58:12.263+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-03T10:58:12.319+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-03T10:58:12.511+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-10-03T10:58:12.764+05:30  WARN 82841 --- [OrderManagementProject] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-03T10:58:13.302+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-03T10:58:13.348+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-10-03T10:58:13.395+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 13000 (http)
+2025-10-03T10:58:13.395+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-03T10:58:13.395+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-10-03T10:58:13.404+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-10-03T10:58:13.404+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 53 ms
+2025-10-03T10:58:13.411+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2025-10-03T10:58:13.430+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 13000 (http) with context path ''
+2025-10-03T10:58:13.445+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] c.m.OrderManagementProjectApplication    : Started OrderManagementProjectApplication in 3.671 seconds (process running for 4.067)
+2025-10-03T10:58:23.378+05:30  INFO 82841 --- [OrderManagementProject] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-03T10:58:23.378+05:30  INFO 82841 --- [OrderManagementProject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-03T10:58:23.379+05:30  INFO 82841 --- [OrderManagementProject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-03T10:58:33.284+05:30  INFO 82841 --- [OrderManagementProject] [http-nio-13000-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServletRegistration'
+2025-10-03T10:58:33.286+05:30  INFO 82841 --- [OrderManagementProject] [http-nio-13000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServletRegistration'
+2025-10-03T10:58:33.291+05:30  INFO 82841 --- [OrderManagementProject] [http-nio-13000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-10-03T10:59:37.092+05:30  INFO 82841 --- [OrderManagementProject] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-03T10:59:41.651+05:30  INFO 82841 --- [OrderManagementProject] [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-10-03T10:59:41.659+05:30  INFO 82841 --- [OrderManagementProject] [Thread-5] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Destroying Spring FrameworkServlet 'dispatcherServletRegistration'
+2025-10-03T10:59:52.679+05:30  WARN 82841 --- [OrderManagementProject] [Thread-5] org.apache.tomcat.util.net.Acceptor      : The acceptor thread [http-nio-8080-Acceptor] did not stop cleanly
+2025-10-03T10:59:52.696+05:30  INFO 82841 --- [OrderManagementProject] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-03T10:59:52.703+05:30  INFO 82841 --- [OrderManagementProject] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-03T10:59:52.719+05:30  INFO 82841 --- [OrderManagementProject] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-03T10:59:52.806+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] c.m.OrderManagementProjectApplication    : Starting OrderManagementProjectApplication using Java 17.0.13 with PID 82841 (/Users/bhavishya.p/Documents/workspace-spring-tools-for-eclipse-4.31.0.RELEASE/OrderManagementProject/target/classes started by bhavishya.p in /Users/bhavishya.p/Documents/workspace-spring-tools-for-eclipse-4.31.0.RELEASE/OrderManagementProject)
+2025-10-03T10:59:52.806+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] c.m.OrderManagementProjectApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-10-03T10:59:52.966+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-03T10:59:52.978+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 3 JPA repository interfaces.
+2025-10-03T10:59:53.081+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-03T10:59:53.081+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-03T10:59:53.082+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-10-03T10:59:53.088+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-03T10:59:53.088+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 280 ms
+2025-10-03T10:59:53.153+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-03T10:59:53.154+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-03T10:59:53.156+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-03T10:59:53.157+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-10-03T10:59:53.185+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@49a8d820
+2025-10-03T10:59:53.185+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-10-03T10:59:53.222+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-03T10:59:53.308+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-03T10:59:53.444+05:30  WARN 82841 --- [OrderManagementProject] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-03T10:59:53.673+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-03T10:59:53.683+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-10-03T10:59:53.702+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 13000 (http)
+2025-10-03T10:59:53.703+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-03T10:59:53.703+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-10-03T10:59:53.710+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-10-03T10:59:53.710+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 26 ms
+2025-10-03T10:59:53.713+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoint(s) beneath base path '/actuator'
+2025-10-03T10:59:53.723+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 13000 (http) with context path ''
+2025-10-03T10:59:53.727+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] c.m.OrderManagementProjectApplication    : Started OrderManagementProjectApplication in 0.936 seconds (process running for 104.35)
+2025-10-03T10:59:53.730+05:30  INFO 82841 --- [OrderManagementProject] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   BeansEndpointAutoConfiguration:
+      Did not match:
+         - @ConditionalOnAvailableEndpoint no 'management.endpoints' property marked it as exposed (OnAvailableEndpointCondition)
+
+   ShutdownEndpointAutoConfiguration:
+      Did not match:
+         - @ConditionalOnAvailableEndpoint no property management.endpoint.shutdown.enabled found so using endpoint default of false (OnAvailableEndpointCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2025-10-03T10:59:57.659+05:30  INFO 82841 --- [OrderManagementProject] [http-nio-13000-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServletRegistration'
+2025-10-03T10:59:57.659+05:30  INFO 82841 --- [OrderManagementProject] [http-nio-13000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServletRegistration'
+2025-10-03T10:59:57.659+05:30  INFO 82841 --- [OrderManagementProject] [http-nio-13000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-03T11:02:16.379+05:30  INFO 82841 --- [OrderManagementProject] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-03T11:02:16.392+05:30  INFO 82841 --- [OrderManagementProject] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-10-03T11:02:16.425+05:30  INFO 82841 --- [OrderManagementProject] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.

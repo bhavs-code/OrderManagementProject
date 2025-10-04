@@ -17,6 +17,9 @@ import com.mywork.dto.OrderRequestDto;
 import com.mywork.dto.OrderResponseDto;
 import com.mywork.service.OrderService;
 
+import io.micrometer.core.annotation.Counted;
+import io.micrometer.core.annotation.Timed;
+
 @RestController
 @RequestMapping("/orders")
 public class OrderController {
@@ -25,6 +28,8 @@ public class OrderController {
 	private OrderService orderService;
 	
 	@PostMapping("/buy")
+	@Timed("orders.placed.time")
+	@Counted("orders.placed.count")
 	public OrderResponseDto placeOrder(@RequestBody List<OrderRequestDto> orderRequestDtos) {
 		return orderService.placeOrder(orderRequestDtos);
 	}
